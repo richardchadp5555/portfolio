@@ -1,0 +1,18 @@
+<div class="container-fluid bg-light p-3 shadow-sm">
+  <div class="row align-items-center">
+    <!-- Avatar -->
+    <div class="col-auto">
+      <app-avatar></app-avatar>
+    </div>
+    <!-- Título -->
+    <div class="col text-center">
+      <app-title [title]="pageTitle"></app-title>
+    </div>
+    <!-- Botón de emitir evento -->
+    <div class="col-auto">
+      <button class="btn btn-primary" (dataFromChild)="onDataCheck($event)">
+        Emitir Evento
+      </button>
+    </div>
+  </div>
+</div>
