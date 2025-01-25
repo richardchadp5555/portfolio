@@ -10,7 +10,7 @@ export class ContactInformationComponent {
   surname = 'Chadwick Plaza';
   age = '24';
   email = 'richardchadp@gmail.com';
-  phone = '6588680978';
+  phone = '658868097';
   linkedin = 'https://www.linkedin.com/in/richard-chadwick-plaza-a17b4a203/';
   github = 'https://github.com/richardchadp5555';
 }
