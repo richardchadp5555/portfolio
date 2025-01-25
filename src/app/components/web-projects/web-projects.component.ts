@@ -18,7 +18,7 @@ export class WebProjectsComponent {
       title: 'gifs-search app',
       description:
         'Esta aplicación permite buscar y ver gifs, desarrollado en Angular.',
-      img: '../../../assets/gifs-app.JPG',
+      img: '/assets/gifs-app.JPG',
       link: 'https://richardchadp5555.github.io/gif-search-app/',
     },
   ];
