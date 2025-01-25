@@ -11,8 +11,8 @@ export class WebProjectsComponent {
       title: 'Proyecto Cine',
       description:
         'Una página web para un cine, creada usando HTML, CSS y JavaScript.',
-      img: 'https://placehold.co/300x200', // Enlace a una imagen representativa
-      link: '#', // Enlace al proyecto
+      img: './assets/dam-cinema.JPG',
+      link: 'https://richardchadp5555.github.io/cine/',
     },
     {
       title: 'gifs-search app',
