@@ -10,6 +10,7 @@ import { AvatarComponent } from './components/avatar/avatar.component';
 import { ContactInformationComponent } from './components/contact-information/contact-information.component';
 import { BodyComponent } from './components/body/body.component';
 import { WebProjectsComponent } from './components/web-projects/web-projects.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { WebProjectsComponent } from './components/web-projects/web-projects.com
     ContactInformationComponent,
     BodyComponent,
     WebProjectsComponent,
+    AboutMeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
